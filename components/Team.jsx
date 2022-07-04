@@ -7,45 +7,49 @@ function Team() {
         <h2>Our Team</h2>
       </div>
 
-      <div className="member">
-        <div className="member__img">
-          <img src="" alt="" />
+      <div className="members">
+        <div className="member">
+          <div className="member__img">
+            <img src="./team/Bilal_Alvi.jpg" alt="" />
+          </div>
+
+          <div className="member__name">
+            <h3>Mohammad Bilal Alvi</h3>
+          </div>
+
+          <div className="member__designation">
+            <p>
+              Charmain Alvi Services <span>Import/Export Head</span>
+            </p>
+          </div>
         </div>
 
-        <div className="memeber__name">
-          <h3>Mohammad Bilal Alvi</h3>
+        <div className="member">
+          <div className="member__img">
+            <img src="./team/Faizan.jpg" alt="" />
+          </div>
+
+          <div className="member__name">
+            <h3>Faizan Ahmed</h3>
+          </div>
+
+          <div className="member__designation">
+            <p>Managing Director</p>
+          </div>
         </div>
 
-        <div className="member__designation">
-          <h4>Charmain Alvi Services Import/Export Head</h4>
-        </div>
-      </div>
+        <div className="member">
+          <div className="member__img">
+            <img src="./team/A.Rehman.jpg" alt="" />
+          </div>
 
-      <div className="member">
-        <div className="member__img">
-          <img src="" alt="" />
-        </div>
+          <div className="member__name">
+            <h3>Abdul Rehman</h3>
+          </div>
 
-        <div className="memeber__name">
-          <h3>Faizan Ahmed</h3>
-        </div>
-
-        <div className="member__designation">
-          <h4>Managing Director</h4>
-        </div>
-      </div>
-
-      <div className="member">
-        <div className="member__img">
-          <img src="" alt="" />
-        </div>
-
-        <div className="memeber__name">
-          <h3>Mohammad Bilal Alvi</h3>
-        </div>
-
-        <div className="member__designation">
-          <h4>Technical Officer</h4>
+          <div className="member__designation">
+            <p>Technical Officer</p>
+          </div>
         </div>
       </div>
     </div>

@@ -22,7 +22,7 @@ const Choose_us = () => {
           </p>
         </div>
         <div className="benefit staff">
-          <h2>Co-Operative & Professional Staff</h2>
+          <h2>Co-Operative and Professional Staff</h2>
           <p>
             OUR Educated And Certified Team Complete Work In Professional Way
             And Provide 100% Customer Satisfaction.

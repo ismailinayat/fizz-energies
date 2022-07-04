@@ -1,6 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.scss'
+import Head from "next/head";
+import Image from "next/image";
+import Navbar from "../components/Navbar";
+import Header from "../components/Header";
+import Benefits from "../components/benefits";
+import styles from "../styles/Home.module.scss";
+import About_us from "../components/About_us";
+import Choose_us from "../components/Choose_us";
+import Team from "../components/Team";
 
 export default function Home() {
   return (
@@ -12,18 +18,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-
-        <div className='header'>
-          <div className='logo__container'>
-            <Image className="logo__container-img" src={'/logo.png'} width={800} height={500}></Image>
-          </div>
-
-        </div>
-
-  
+        <Navbar></Navbar>
+        <Header></Header>
+        <Benefits></Benefits>
+        <About_us></About_us>
+        <Choose_us></Choose_us>
+        <Team></Team>
       </main>
-
-    
     </div>
-  )
+  );
 }

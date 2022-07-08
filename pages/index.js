@@ -22,15 +22,19 @@ export default function Home() {
 
       <main className={styles.main}>
         <Navbar></Navbar>
-        <Header></Header>
-        <Benefits></Benefits>
-        <About_us></About_us>
-        <Choose_us></Choose_us>
-        <Team></Team>
-        <Packages></Packages>
-        <Contact_us></Contact_us>
-        <Footer></Footer>
+       
       </main>
     </div>
   );
 }
+
+/*
+<Header></Header>
+<Benefits></Benefits>
+<About_us></About_us>
+<Choose_us></Choose_us>
+<Team></Team>
+<Packages></Packages>
+<Contact_us></Contact_us>
+<Footer></Footer>
+*/

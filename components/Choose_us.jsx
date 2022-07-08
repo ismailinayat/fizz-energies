@@ -4,7 +4,7 @@ const Choose_us = () => {
   return (
     <div className="container">
       <div className="container__img">
-        <img src="" alt="" />
+        <img src="iphone 13.png" alt="" />
       </div>
       <div className="container__main">
         <div className="container__heading">
@@ -22,7 +22,7 @@ const Choose_us = () => {
           </p>
         </div>
         <div className="benefit staff">
-          <h2>Co-Operative & Professional Staff</h2>
+          <h2>Co-Operative and Professional Staff</h2>
           <p>
             OUR Educated And Certified Team Complete Work In Professional Way
             And Provide 100% Customer Satisfaction.

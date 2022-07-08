@@ -7,6 +7,9 @@ import styles from "../styles/Home.module.scss";
 import About_us from "../components/About_us";
 import Choose_us from "../components/Choose_us";
 import Team from "../components/Team";
+import Packages from "../components/Packages";
+import Contact_us from "../components/Contact_us";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +27,9 @@ export default function Home() {
         <About_us></About_us>
         <Choose_us></Choose_us>
         <Team></Team>
+        <Packages></Packages>
+        <Contact_us></Contact_us>
+        <Footer></Footer>
       </main>
     </div>
   );

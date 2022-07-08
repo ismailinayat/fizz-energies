@@ -28,8 +28,7 @@ body {
 
     &-logo {
       img {
-        height: 8rem;
-        display: block;
+        width: 38rem;
       }
     }
     &-menu {
@@ -203,9 +202,20 @@ body {
 
 .container {
   margin-top: 14.8rem;
-  height: 90vh;
-  background-image: radial-gradient($colorPrimaryLight, $colorPrimary);
+  height: 110vh;
+  background-image: radial-gradient($colorFontWhite, $colorPrimary);
   padding: 3rem 0;
+  position: relative;
+
+  .container__img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    img {
+      width: 100%;
+    }
+  }
   .container__main {
     position: relative;
     .container__heading {
@@ -288,6 +298,7 @@ body {
           width: 30rem;
           height: 30rem;
           object-fit: cover;
+          object-position: top;
         }
       }
 
@@ -309,5 +320,180 @@ body {
         }
       }
     }
+  }
+}
+
+.packages {
+  padding: 14.8rem 10rem;
+  .heading {
+    // background-color: aqua;
+    text-align: center;
+
+    h1 {
+      font-size: 7rem;
+    }
+
+    h3 {
+      font-size: 2.5rem;
+    }
+  }
+  &__container {
+    display: flex;
+    justify-content: space-around;
+
+    //background-color: aquamarine;
+
+    .package {
+      // background-color: orange;
+
+      border: 2px solid grey;
+      &__info {
+        //background-color: purple;
+        padding: 5rem 7.5rem;
+        text-align: center;
+
+        h1 {
+          //color: pink;
+          font-size: 5rem;
+        }
+        h2 {
+          //color: red;
+          font-size: 5rem;
+        }
+      }
+      &__description {
+        padding: 8rem 7rem;
+
+        ul {
+          font-size: 1.5rem;
+          line-height: 3rem;
+          li {
+            list-style: none;
+            font-size: 2rem;
+          }
+        }
+      }
+      &__btn {
+        text-align: center;
+        padding-bottom: 3rem;
+        .btn {
+          border: none;
+          outline: none;
+          padding: 1.5rem 4rem;
+          border-radius: 0.5rem;
+          color: $colorFontWhite;
+          font-size: 1.9rem;
+          letter-spacing: 0.3rem;
+          background-image: linear-gradient(
+            to left,
+            $colorPrimary,
+            $colorPrimaryLight
+          );
+        }
+      }
+    }
+  }
+}
+
+.contact {
+  //background-color: aqua;
+  padding: 5rem 10rem;
+
+  &_heading {
+    //background-color: aquamarine;
+    h1 {
+      font-size: 7rem;
+      letter-spacing: 0.2rem;
+    }
+    h4 {
+      color: $colorPrimaryLight;
+      font-size: 1.5rem;
+      letter-spacing: 0.2rem;
+    }
+  }
+
+  .address__info {
+    padding-top: 3rem;
+    h3 {
+      font-size: 1.8rem;
+    }
+  }
+
+  .in__touch {
+    padding-top: 3rem;
+
+    h2 {
+      font-size: 3rem;
+    }
+  }
+  .input__fields {
+    //background-color: pink;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2rem;
+
+    input {
+      padding: 2rem 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+
+    textarea {
+      height: 15rem;
+      padding: 2rem 1rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .btn .btn {
+    margin-top: 2rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 1.5rem 4rem;
+    border-radius: 0.5rem;
+    color: $colorFontWhite;
+    font-size: 1.9rem;
+    letter-spacing: 0.3rem;
+    background-image: linear-gradient(
+      to left,
+      $colorPrimary,
+      $colorPrimaryLight
+    );
+  }
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  padding: 10rem;
+  height: 50rem;
+  font-size: 1.5rem;
+
+  &__component {
+    &:not(:last-child) {
+      margin-right: 15rem;
+    }
+    color: white;
+  }
+  h3 {
+    padding-right: 10rem;
+    color: white;
+    padding-bottom: 1.5rem;
+  }
+  a {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    text-decoration: none;
   }
 }

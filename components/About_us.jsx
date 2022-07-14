@@ -28,7 +28,7 @@ const About_us = () => {
             the way your solar works and how it looks. Paksolar Renewable
             Energy, best solar energy solution company in Karachi takes
             tremendous pride in making sure every solar system project we
-            install does justice to the home it's on. With over 10+ years in
+            install does justice to the home its on. With over 10+ years in
             solar and electrical contracting, we use professional techniques and
             practices to install solar for your home. With 10-years of extensive
             experience in the implementation; of complex solar projects and

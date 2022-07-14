@@ -4,7 +4,7 @@ const WhyUs = () => {
   return (
     <div className="whyus__container">
       <div className="container__img">
-        <img src="iphone 13.png" alt="" />
+        <img src="iphone-13.png" alt="" />
       </div>
       <div className="container__main">
         <div className="container__heading">
@@ -45,7 +45,7 @@ const WhyUs = () => {
         <div className="benefit quality">
           <h2>Efficient Quality Control</h2>
           <p>
-            As We Don't Import/Export By Any Third Party THATS Why We Pride
+            As We Dont Import/Export By Any Third Party THATS Why We Pride
             Ourself In Bringing Orignal And Best Quality Products.
           </p>
         </div>

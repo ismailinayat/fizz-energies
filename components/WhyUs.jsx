@@ -1,8 +1,8 @@
 import React from "react";
 
-const Choose_us = () => {
+const WhyUs = () => {
   return (
-    <div className="container">
+    <div className="whyus__container">
       <div className="container__img">
         <img src="iphone 13.png" alt="" />
       </div>
@@ -54,4 +54,4 @@ const Choose_us = () => {
   );
 };
 
-export default Choose_us;
+export default WhyUs;

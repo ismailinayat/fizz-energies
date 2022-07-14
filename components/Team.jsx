@@ -10,7 +10,7 @@ function Team() {
       <div className="members">
         <div className="member">
           <div className="member__img">
-            <img src="./team/Bilal_Alvi.jpg" alt="" />
+            <img src="./team/Bilal_Alvi2.jpg" alt="" />
           </div>
 
           <div className="member__name">
@@ -48,7 +48,7 @@ function Team() {
           </div>
 
           <div className="member__designation">
-            <p>Technical Officer</p>
+            <p>Technician</p>
           </div>
         </div>
       </div>

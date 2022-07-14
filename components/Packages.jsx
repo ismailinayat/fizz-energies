@@ -5,7 +5,7 @@ const Packages = () => {
     <div className="packages">
       <div className="heading">
         <h1>OUR PRICING PLAN</h1>
-        <h3>Choose Your Best Project</h3>
+        <p>Choose The Package That Suits Your Needs Best</p>
       </div>
       <div className="packages__container">
         <div className="package">
@@ -15,7 +15,7 @@ const Packages = () => {
           </div>
           <div className="package__description">
             <ul>
-              <li>Cealing Fan</li>
+              <li>Cealing Fans</li>
               <li>Lights</li>
               <li>Air Cooler</li>
               <li>Fridge</li>
@@ -24,7 +24,7 @@ const Packages = () => {
             </ul>
           </div>
           <div className="package__btn">
-            <button className="btn">BUY NOW</button>
+            <button className="btn">More Info</button>
           </div>
         </div>
         <div className="package">
@@ -34,7 +34,7 @@ const Packages = () => {
           </div>
           <div className="package__description">
             <ul>
-              <li>Cealing Fan</li>
+              <li>Cealing Fans</li>
               <li>Lights</li>
               <li>Air Cooler</li>
               <li>Fridge</li>
@@ -43,7 +43,7 @@ const Packages = () => {
             </ul>
           </div>
           <div className="package__btn">
-            <button className="btn">BUY NOW</button>
+            <button className="btn">More Info</button>
           </div>
         </div>
         <div className="package">
@@ -53,7 +53,7 @@ const Packages = () => {
           </div>
           <div className="package__description">
             <ul>
-              <li>Cealing Fan</li>
+              <li>Cealing Fans</li>
               <li>Lights</li>
               <li>Air Cooler</li>
               <li>Fridge</li>
@@ -62,7 +62,7 @@ const Packages = () => {
             </ul>
           </div>
           <div className="package__btn">
-            <button className="btn">BUY NOW</button>
+            <button className="btn">More Info</button>
           </div>
         </div>
       </div>

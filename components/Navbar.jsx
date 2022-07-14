@@ -27,10 +27,10 @@ const Navbar = () => {
             <a href="#">Home</a>
           </div>
           <div className="link">
-            <a href="#">Our Services</a>
+            <a href="#">Products</a>
           </div>
           <div className="link">
-            <a href="#">Packages</a>
+            <a href="#">Our Services</a>
           </div>
           <div className="link">
             <a href="#">About Us</a>

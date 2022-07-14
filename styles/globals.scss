@@ -126,6 +126,7 @@ body {
 
       @include respond (tab-port) {
         display: block;
+        top: 2.3rem;
       }
       .navigation__button {
 
@@ -281,16 +282,16 @@ body {
 
     @include respond(tab-land) {
 
-      padding: 3rem;
+      padding: 5rem 3rem;
     }
     
     @include respond(tab-port) {
-      padding: 2rem;
-      transform: translateY(70%);
+      padding: 5rem 2rem;
+      //transform: translateY(70%);
     }
 
     @include respond(phone) {
-      padding: 1rem;
+      padding: 5rem 1rem;
     }
     .header-heading {
 

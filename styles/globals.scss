@@ -52,6 +52,10 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
+
+  @include respond(tab-port) {
+    overflow-x: hidden;
+  }
 }
 /*
 .navbar {

@@ -799,32 +799,40 @@ body {
       font-size: 3rem;
     }
   }
-  .input__fields {
-    //background-color: pink;
-    max-width: 50rem;
-    display: flex;
-    flex-direction: column;
 
-    margin-top: 2rem;
+  .form__container {
 
-    input {
-      padding: 2rem 1rem;
-      margin-bottom: 0.5rem;
-    }
 
-    input[type="number"]::-webkit-inner-spin-button,
+    .form {
+
+      display: flex;
+      flex-direction: column;
+
+      margin-top: 2rem;
+      .form_input-container {
+        max-width: 50rem;
+       
+
+        input[type="number"]::-webkit-inner-spin-button,
     input[type="number"]::-webkit-outer-spin-button {
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
     }
-
     textarea {
       height: 15rem;
       padding: 2rem 1rem;
       margin-bottom: 0.5rem;
     }
+        .form_input {
+          width: 100%;
+          padding: 2rem 1rem;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
   }
+
 
   .btn .btn {
     margin-top: 2rem;
@@ -841,6 +849,10 @@ body {
       $colorPrimary,
       $colorPrimaryLight
     );
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 

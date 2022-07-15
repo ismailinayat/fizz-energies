@@ -4,7 +4,7 @@ const WhyUs = () => {
   return (
     <div className="whyus__container">
       <div className="container__img">
-        <img src="iphone-13.png" alt="" />
+        <img src="/iphone-13.png" alt="Fizz Energies Mobile Logo" />
       </div>
       <div className="container__main">
         <div className="container__heading">

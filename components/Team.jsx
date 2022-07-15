@@ -48,7 +48,7 @@ function Team() {
           </div>
 
           <div className="member__designation">
-            <p>Technician</p>
+            <p>Technician Head</p>
           </div>
         </div>
       </div>

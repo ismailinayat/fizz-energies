@@ -10,6 +10,7 @@ import Team from "../components/Team";
 import Packages from "../components/Packages";
 import Contact_us from "../components/Contact_us";
 import Footer from "../components/Footer";
+import Social from "../components/Social";
 
 export default function Home() {
   return (
@@ -22,12 +23,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Social></Social>
         <Navbar></Navbar>
         <Header></Header>
         <Benefits></Benefits>
         <Team></Team>
-        <Packages></Packages>
         <WhyUs></WhyUs>
+        <Packages></Packages>
         <Contact_us></Contact_us>
         <Footer></Footer>
       </main>

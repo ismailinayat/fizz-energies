@@ -1,19 +1,19 @@
-
-// COLORS
-$color-primary : #55c57a;
-$color-primary-light : #7ed56f;
-$color-primary-dark : #28b485;
-
+$colorPrimary: rgb(118, 194, 27);
+$colorPrimaryLight: rgb(129, 170, 48);
+$colorBlack: rgba(0, 0, 0, 0.841);
+$colorFontWhite: rgba(255, 255, 255);
 $color-light-grey-1 : #f7f7f7;
 
 $color-grey-dark : #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
 $color-white: #fff;
 $color-black: #000;
 
-// FONTS
-$default-font-size: 1.6rem;
+$facebook-color: hsl(226,43%,49%);
+$twitter-color: hsl(207,86%,57%);
+$insta-color: hsl(326,90%,42%);
+$linked-color: hsl(218,56%,45%);
 
-// GRID
-$grid-width: 114rem;
-$gutter-vertical: 8rem;
-$gutter-horizontal: 5rem;
+
+$section-padding: 5rem 10rem;

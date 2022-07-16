@@ -3,6 +3,13 @@ import React from "react";
 const Header = () => {
   return (
     <div className="header">
+      <div className="bg-video">
+                <video className="bg-video__content" autoPlay muted loop>
+                  <source src="HeaderVideo.mp4" type="video/mp4"/>
+                  <source src="../img/video.webm" type="video/webm"/>
+                  Your browser is not supported!
+                </video>
+              </div>
       <div className="header-content">
         <div className="header-heading">
           <h1>INNOVATE SOLAR SOLUTIONS FOR YOUR HOME</h1>

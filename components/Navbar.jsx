@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar_nav">
         <div className="navbar_nav-logo">
-          <img src="Group 1.png" alt="" />
+          <img src="logo-new.png" alt="" />
         </div>
 
         <div className="navbar_nav_mobile" onClick={handleMenu}>

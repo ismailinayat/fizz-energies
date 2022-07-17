@@ -1,7 +1,7 @@
 .section {
 
   padding: $section-padding;
-
+  margin-top: 10rem;
   @include respond(tab-port) {
 
     padding: 2rem;
@@ -16,7 +16,7 @@
     margin-bottom: 10rem;
 
     h2 {
-      font-size: 3rem;
+      font-size: 5rem;
       font-weight: 500;
 
       span {
@@ -33,9 +33,14 @@
     gap: 5rem;
     max-width: 120rem;
     margin: 0 auto;
+    flex-wrap: wrap;
 
+    @include respond(tab-land) {
+      row-gap: 10rem;
+    }
     @include respond(tab-port) {
-      gap: 2rem;
+      //gap: 2rem;
+      row-gap: 10rem;
     }
 
     @include respond(phone) {
@@ -48,7 +53,7 @@
     .package {
 
       padding: 2.5rem;
-      flex: 33.3333%;
+      flex: 30%;
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
       border-radius: 0.5rem;
 
@@ -64,6 +69,8 @@
         outline: 5px solid $colorPrimary;
         outline-offset: 2rem;
       }
+
+      //@inclue
       @include respond(phone) {
       
         flex: 100%;

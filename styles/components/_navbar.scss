@@ -8,6 +8,15 @@
     @include respond(tab-land) {
       padding: 0 5rem;
     }
+
+    @include respond(tab-port) {
+
+      padding: 0 3rem;
+    }
+
+    @include respond(phone) {
+      padding: 0 2rem;
+    }
     &_nav {
   
       height: 100%;
@@ -23,12 +32,26 @@
         //background-color:aqua;
         display: flex;
         align-items: center;
+        padding: 0.5rem;
+        cursor: pointer;
         img {
+          margin-right: 2rem;
   
           height: 100%;
+          
           //background-color: #777;
           @include respond(tab-land) {
             height: 4rem;
+          }
+        }
+
+        h2 {
+
+          font-size: 3rem;
+
+          @include respond (phone) {
+
+            font-size: 2rem;
           }
         }
       }

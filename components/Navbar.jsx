@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-
+import Link from 'next/link'
 const Navbar = () => {
 
   const [menuOpen, setMenuOpen] = useState(false)
@@ -12,9 +12,13 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar_nav">
-        <div className="navbar_nav-logo">
-          <img src="logo-new.png" alt="" />
-        </div>
+          <Link href='/'>
+            <div className="navbar_nav-logo">
+                <img src="fizz-logo.png" alt="Fizz Energy Solution Logo." />
+
+                <h2>Fizz Energy Solutions</h2>
+            </div>
+          </Link>
 
         <div className="navbar_nav_mobile" onClick={handleMenu}>
         <div htmlFor="navi-toggle" className="navigation__button">
@@ -33,7 +37,9 @@ const Navbar = () => {
             <a href="#">Our Services</a>
           </div>
           <div className="link">
-            <a href="#">About Us</a>
+            <Link href="/about">
+              <a >About Us</a>
+            </Link>
           </div>
          
          

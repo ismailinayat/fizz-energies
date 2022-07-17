@@ -17,7 +17,7 @@ const WhyUs = () => {
         <div className="benefit delivery">
           <h2>Deliver Service On Time</h2>
           <p>
-            We HAve History Of Completing Projects And Services Within Specified
+            We Have History Of Completing Projects And Services Within Specified
             Time Period.
           </p>
         </div>

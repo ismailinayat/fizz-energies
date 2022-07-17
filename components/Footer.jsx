@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 import {FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn} from 'react-icons/fa';
 
 const Footer = () => {
@@ -38,8 +39,10 @@ const Footer = () => {
               <h3>Careers</h3>
             </div>
             <div>
-              <a href="">Jobs</a>
-              <a href="">Contact Us</a>
+              <Link href="/careers">
+                <a >Careers</a>
+              </Link>
+             
             
             </div>
           </div>

@@ -32,15 +32,18 @@
   
       @include respond(tab-land) {
   
+        transform: translateY(40%);
         padding: 5rem 3rem;
       }
       
       @include respond(tab-port) {
         padding: 5rem 2rem;
+        transform: translateY(30%);
         //transform: translateY(70%);
       }
   
       @include respond(phone) {
+        transform: translateY(20%);
         padding: 5rem 1rem;
       }
       .header-heading {

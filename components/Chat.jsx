@@ -6,7 +6,7 @@ function Chat() {
     <div className='chat__container'>
        
         <div className="link whatsapp">
-            <a href="https://wa.me/923365561173">
+            <a href="https://wa.me/923155412740">
                 <FaWhatsapp className='whatsapp__icon'/>
                 
             </a>

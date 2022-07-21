@@ -1,5 +1,8 @@
 import React, {useState} from "react";
-import Link from 'next/link'
+import Link from 'next/link';
+
+
+
 const Navbar = () => {
 
   const [menuOpen, setMenuOpen] = useState(false)
@@ -28,7 +31,9 @@ const Navbar = () => {
 
         <div className={menuOpen ? 'navbar_nav-menu menu_show' : 'navbar_nav-menu'}>
           <div className="link">
-            <a href="#">Home</a>
+            <Link href='/'>
+              <a>Home</a>
+            </Link>
           </div>
           <div className="link">
             <a href="#">Products</a>

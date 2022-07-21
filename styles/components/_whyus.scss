@@ -1,7 +1,7 @@
 
 .whyus__container {
     margin-top: 14.8rem;
-    height: 110vh;
+    height: 120vh;
     background-image: radial-gradient($colorFontWhite, $colorPrimary);
     padding: 5rem 8rem;
     position: relative;
@@ -9,7 +9,12 @@
   
     @include respond(tab-land) {
       padding: 5rem 2rem;
-      height: 90vh
+      height: 95vh;
+    }
+
+    @include respond(tab-port) {
+
+      height: 85vh;
     }
 
     @include respond(phone) {
@@ -43,6 +48,11 @@
       position: relative;
       .container__heading {
         text-align: center;
+
+
+        @include respond(phone) {
+          margin-bottom: 5rem;
+        }
         h1 {
           font-size: 7rem;
           text-transform: uppercase;
@@ -65,60 +75,60 @@
       .free-maintenance {
         position: absolute;
         left: 0rem;
-        top: 30rem;
+        top: 25rem;
   
         @include respond(tab-land) {
-          top: 25rem;
+          top: 20rem;
         }
       }
   
       .delivery {
         position: absolute;
         left: 0rem;
-        top: 55rem;
+        top: 50rem;
   
         @include respond(tab-land) {
-          top: 45rem;
+          top: 40rem;
         }
       }
   
       .staff {
         position: absolute;
         left: 0rem;
-        top: 80rem;
+        top: 70rem;
         width: 40rem;
   
         @include respond(tab-land) {
-          top: 65rem;
+          top: 60rem;
         }
       }
   
       .mount {
         position: absolute;
         right: 0rem;
-        top: 30rem;
+        top: 25rem;
         @include respond(tab-land) {
-          top: 25rem;
+          top: 20rem;
         }
       }
   
       .response {
         position: absolute;
         right: 0rem;
-        top: 55rem;
+        top: 50rem;
   
         @include respond(tab-land) {
-          top: 45rem;
+          top: 40rem;
         }
       }
   
       .quality {
         position: absolute;
         right: 0rem;
-        top: 80rem;
+        top: 75rem;
   
         @include respond(tab-land) {
-          top: 65rem;
+          top: 60rem;
         }
       }
 

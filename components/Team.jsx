@@ -8,7 +8,7 @@ function Team() {
       </div>
 
       <div className="members">
-        <div className="member">
+        <div className="member member_1">
           <div className="member__img">
             <img src="./team/Bilal_Alvi2.jpg" alt="" />
           </div>
@@ -24,8 +24,8 @@ function Team() {
           </div>
         </div>
 
-        <div className="member">
-          <div className="member__img">
+        <div className="member member_2">
+          <div className="member__img fizz">
             <img src="./team/Faizan.jpg" alt="" />
           </div>
 
@@ -38,7 +38,7 @@ function Team() {
           </div>
         </div>
 
-        <div className="member">
+        <div className="member member_3">
           <div className="member__img">
             <img src="./team/A.Rehman.jpg" alt="" />
           </div>

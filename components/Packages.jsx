@@ -88,42 +88,70 @@ const Packages = () => {
 
           <div className="package__features">
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
+              <p>Fans</p>
+              <div className="feature__icon available">
+                
+                <p>2</p>
+
               </div>
-              <p>2 Fans</p>
             </div>
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
+              <p>Led Bulbs</p>
+              <div className="feature__icon available">
+                
+                <p>5</p>
+
               </div>
-              <p>5 Led Bulbs</p>
             </div>
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
-              <p>Refrigerator</p>
-            </div>
-            <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
               <p>LED TV</p>
+              <div className="feature__icon unavailable">
+                
+                
+                &#x2715;
+
+              
+           
+
+              </div>
+            </div>
+            <div className="package__features--feature">
+              <p>Refrigerator</p>
+              <div className="feature__icon unavailable">
+                
+                
+                  &#x2715;
+
+                
+             
+
+              </div>
             </div>
 
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
               <p>Iron</p>
+              <div className="feature__icon unavailable">
+                
+                
+                  &#x2715;
+
+                
+                {/* <p>5</p> */}
+
+              </div>
             </div>
 
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
               <p>Air Conditioner</p>
+              <div className="feature__icon unavailable">
+                
+                
+                &#x2715;
+
+              
+              {/* <p>5</p> */}
+
+            </div>
             </div>
           </div>
 
@@ -138,6 +166,10 @@ const Packages = () => {
           </div>
         </div>
 
+
+
+
+
         <div className="package">
           <div className="package__title">
             <h3>2KV Unit</h3>
@@ -147,42 +179,71 @@ const Packages = () => {
 
           <div className="package__features">
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
+              <p>Fans</p>
+              <div className="feature__icon available">
+                
+                <p>4</p>
+
               </div>
-              <p>4 Fans</p>
             </div>
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
-              <p>5 Led Bulbs</p>
-            </div>
-            <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
-              <p>Refrigerator</p>
-            </div>
-            <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
+             
               <p>LED TV</p>
+              <div className="feature__icon available">
+                
+                <p>1</p>
+
+              </div>
+            </div>
+            <div className="package__features--feature">
+              <p>Led Bulbs</p>
+              <div className="feature__icon available">
+                
+                <p>5</p>
+
+              </div>
+            </div>
+            <div className="package__features--feature">
+            
+            
+              <p>Refrigerator</p>
+              <div className="feature__icon unavailable">
+                
+                
+                  &#x2715;
+
+                
+                {/* <p>5</p> */}
+
+              </div>
             </div>
 
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
+             
               <p>Iron</p>
+              <div className="feature__icon unavailable">
+                
+                
+                  &#x2715;
+
+                
+                {/* <p>5</p> */}
+
+              </div>
             </div>
 
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
+             
               <p>Air Conditioner</p>
+              <div className="feature__icon unavailable">
+                
+                
+                  &#x2715;
+
+                
+                {/* <p>5</p> */}
+
+              </div>
             </div>
           </div>
 
@@ -206,42 +267,64 @@ const Packages = () => {
 
           <div className="package__features">
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
+              <p>Fans</p>
+              <div className="feature__icon available">
+                
+                <p>3</p>
+
               </div>
-              <p>3 Fans</p>
             </div>
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
+              <p>Led Bulbs</p>
+              <div className="feature__icon available">
+                
+                <p>5</p>
+
               </div>
-              <p>5 Led Bulbs</p>
             </div>
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
-              <p>Refrigerator</p>
-            </div>
-            <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
               <p>LED TV</p>
+              <div className="feature__icon available">
+                
+                <p>1</p>
+
+              </div>
+            </div>
+            <div className="package__features--feature">
+              <p>Refrigerator</p>
+              <div className="feature__icon available">
+                
+                <p>1</p>
+
+              </div>
             </div>
 
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
+              
               <p>Iron</p>
+              <div className="feature__icon unavailable">
+                
+                
+                  &#x2715;
+
+                
+                {/* <p>5</p> */}
+
+              </div>
             </div>
 
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
+              
               <p>Air Conditioner</p>
+              <div className="feature__icon unavailable">
+                
+                
+                  &#x2715;
+
+                
+                {/* <p>5</p> */}
+
+              </div>
             </div>
           </div>
 
@@ -265,42 +348,59 @@ const Packages = () => {
 
           <div className="package__features">
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
+              <p>Fans</p>
+              <div className="feature__icon available">
+                
+                <p>4</p>
+
               </div>
-              <p>4 Fans</p>
             </div>
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
+              <p>Led Bulbs</p>
+              <div className="feature__icon available">
+                
+                <p>5</p>
+
               </div>
-              <p>5 Led Bulbs</p>
             </div>
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
-              <p>Refrigerator</p>
-            </div>
-            <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
               <p>LED TV</p>
+              <div className="feature__icon available">
+                
+                <p>1</p>
+
+              </div>
+            </div>
+            <div className="package__features--feature">
+              <p>Refrigerator</p>
+              <div className="feature__icon available">
+                
+                <p>1</p>
+
+              </div>
             </div>
 
-            <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
-              <p>Iron</p>
-            </div>
 
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
               <p>Air Conditioner</p>
+              <div className="feature__icon available">
+                
+                <p>1</p>
+
+              </div>
+            </div>
+            <div className="package__features--feature">
+             
+              <p>Iron</p>
+              <div className="feature__icon unavailable">
+                
+                
+                  &#x2715;
+
+                
+                {/* <p>5</p> */}
+
+              </div>
             </div>
           </div>
 
@@ -324,42 +424,54 @@ const Packages = () => {
 
           <div className="package__features">
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
+              <p>Fans</p>
+              <div className="feature__icon available">
+                
+                <p>5</p>
+
               </div>
-              <p>5 Fans</p>
             </div>
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
+              <p>Led Bulbs</p>
+              <div className="feature__icon available">
+                
+                <p>10</p>
+
               </div>
-              <p>10 Led Bulbs</p>
             </div>
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
-              <p>Refrigerator</p>
-            </div>
-            <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
               <p>LED TV</p>
+              <div className="feature__icon available">
+                
+                <p>1</p>
+
+              </div>
+            </div>
+            <div className="package__features--feature">
+              <p>Refrigerator</p>
+              <div className="feature__icon available">
+                
+                <p>1</p>
+
+              </div>
             </div>
 
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
               <p>Iron</p>
+              <div className="feature__icon available">
+                
+                <p>1</p>
+
+              </div>
             </div>
 
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
               <p>Air Conditioner</p>
+              <div className="feature__icon available">
+                
+                <p>3</p>
+
+              </div>
             </div>
           </div>
 
@@ -383,42 +495,54 @@ const Packages = () => {
 
           <div className="package__features">
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
+              <p>Fans</p>
+              <div className="feature__icon available">
+                
+                <p>8</p>
+
               </div>
-              <p>8 Fans</p>
             </div>
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
+              <p>Led Bulbs</p>
+              <div className="feature__icon available">
+                
+                <p>20</p>
+
               </div>
-              <p>20 Led Bulbs</p>
             </div>
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
-              <p>Refrigerator</p>
-            </div>
-            <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
               <p>LED TV</p>
+              <div className="feature__icon available">
+                
+                <p>3</p>
+
+              </div>
+            </div>
+            <div className="package__features--feature">
+              <p>Refrigerator</p>
+              <div className="feature__icon available">
+                
+                <p>2</p>
+
+              </div>
             </div>
 
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
               <p>Iron</p>
+              <div className="feature__icon available">
+                
+                <p>1</p>
+
+              </div>
             </div>
 
             <div className="package__features--feature">
-              <div className="feature__icon">
-                <BsFillCheckCircleFill />
-              </div>
               <p>Air Conditioner</p>
+              <div className="feature__icon available">
+                
+                <p>5</p>
+
+              </div>
             </div>
           </div>
 

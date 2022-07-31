@@ -176,7 +176,7 @@ const Calculator = () => {
 
                 <div className="input">
                   <label htmlFor="name">Please Enter Your Name:</label>
-                  <input  id='name' name='name' type="text" placeholder="Enter your Name" required />
+                  <input  id='name' name='Name' type="text" placeholder="Enter your Name" required />
                 </div>
                 <div className="input">
                   <label htmlFor="email">Please Enter Your Mobile Number:</label>

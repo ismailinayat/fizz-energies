@@ -62,6 +62,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="websoft">
+        <p>Powered by <span><Link href="https://www.websoft24.com"><a> websoft24</a></Link></span></p>
+      </div>
     </div>
   );
 };

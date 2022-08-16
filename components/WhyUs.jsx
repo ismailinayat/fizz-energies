@@ -32,11 +32,11 @@ const WhyUs = () => {
           <h2>Mount With Latest Tools</h2>
           <p>
             We Deploy Systems At Right PLACE That Capture Maximum Output. We
-            Keep Safety A High Promptly.
+            Keep Safety A High Priority.
           </p>
         </div>
         <div className="benefit response">
-          <h2>Quick Response To Quries</h2>
+          <h2>Quick Response To Queries</h2>
           <p>
             Our Professional Staff Is Available For your Help And Resolving Your
             Queries Promptly.
@@ -45,8 +45,8 @@ const WhyUs = () => {
         <div className="benefit quality">
           <h2>Efficient Quality Control</h2>
           <p>
-            As We Dont Import/Export By Any Third Party THATS Why We Pride
-            Ourself In Bringing Orignal And Best Quality Products.
+            As We Dont Import/Export By Any Third Party Thats Why We Pride
+            Ourself In Bringing Original And Best Quality Products.
           </p>
         </div>
       </div>

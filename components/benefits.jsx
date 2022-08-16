@@ -11,9 +11,7 @@ const Benefits = () => {
           <img className="benefit-img" src="green energy icon.png " alt="" />
           <h3>ECONOMICAL ELECTRICITY</h3>
           <p>
-            Installing solar power systems can have numerous benefits including
-            lower electricity bills, lower carbon footprints, and potentially
-            higher home values.
+          Generating your own electricity means that you will be using less from the utility supplier. This will immediately translate to savings on your energy bill. Plus, you can also make money by selling the unused electricity, which you have generated, back to the grid.
           </p>
         </div>
 
@@ -22,7 +20,7 @@ const Benefits = () => {
           <h3>ZERO LOADSHEDDING</h3>
           <p>
             With installation of solar system you can get rid of loadshedding.
-            As in courrent situattion in Pakistan.
+            
           </p>
         </div>
 
@@ -30,17 +28,15 @@ const Benefits = () => {
           <img className="benefit-img" src="save the planet.png" alt="" />
           <h3>SAVE THE PLANET</h3>
           <p>
-            Solar system use sun light to generate electricity by this we can
-            save natural resources like oil and gas by which we produce
-            electricity.
+          Solar energy has the least negative impact on the environment compared to any other energy source. It does not produce greenhouse gases and does not pollute the water.
           </p>
         </div>
         <div className="benefit">
           <img className="benefit-img" src="natural energy.webp" alt="" />
           <h3>NATURAL RESOURCES</h3>
           <p>
-            Solar system use sun light to generate electricity by this we can
-            save natural resources like oil and gas by which we produce
+          As long as there is sunshine, solar energy can be deployed anywhere. Solar system use sunlight to generate electricity. This
+          allows us to save natural resources like oil and gas which are being currently used to produce
             electricity.
           </p>
         </div>
